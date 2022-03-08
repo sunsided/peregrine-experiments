@@ -1,0 +1,14 @@
+def fib(n: int) -> int:
+    if n <= 0:
+        return 1
+    return fib(n-1) + fib(n-2)
+
+def main():
+    count: int = 0
+    res: int = 0
+
+    while count < 40:
+        res = fib(count)
+        count++
+
+        # TODO: Currently there's not support for console ouput?
