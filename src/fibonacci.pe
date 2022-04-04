@@ -9,6 +9,5 @@ def main():
 
     while count < 40:
         res = fib(count)
+        printf("res = %lld\n",res)
         count++
-
-        # TODO: Currently there's not support for console ouput?
