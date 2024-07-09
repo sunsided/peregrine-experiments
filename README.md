@@ -8,4 +8,11 @@ To build, use `make`:
 $ make all
 ```
 
+Or using `just`,
+
+```console
+$ just build
+```
+
+
 [Peregrine]: https://github.com/peregrine-lang/Peregrine
