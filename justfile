@@ -11,3 +11,6 @@ build:
 default:
     @echo "make all:   Build everything"
     @echo "make clean: Clean build outputs"
+
+run: build
+    ./fibonacci

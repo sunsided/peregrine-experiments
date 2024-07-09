@@ -11,7 +11,7 @@ $ make all
 Or using `just`,
 
 ```console
-$ just build
+$ just run
 ```
 
 
